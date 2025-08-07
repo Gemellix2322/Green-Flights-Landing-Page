@@ -8,6 +8,7 @@ import Link from "next/link";
 
 import AboutUs from "@/components/sections/aboutUs";
 import Footer from "@/components/sections/footer";
+import Prices from "@/components/sections/prices";
 import { useState } from "react";
 import {motion} from 'framer-motion'
 
@@ -89,6 +90,9 @@ export default function Home() {
       </section>
       <section id="sobre">
         <AboutUs/>
+      </section>
+      <section id='preços'>
+          <Prices/>
       </section>
       <section id='footer'>
         <Footer/>

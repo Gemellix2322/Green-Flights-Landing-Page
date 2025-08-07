@@ -10,7 +10,7 @@ export default function AboutUs() {
     const text = [{text: " Na Green Flights, nossa missão é revolucionar o seu jeito de viajar. Acreditamos que explorar o mundo não precisa ser complicado nem caro. Usamos tecnologia de ponta para encontrar as melhores tarifas e rotas, simplificando todo o processo de planejamento para você. Mais do que apenas voos, promovemos um turismo mais sustentável, para que você possa criar memórias inesquecíveis enquanto cuida do nosso planeta."}]
 
     return (
-        <div className="w-full bg-green-50 py-24 px-8 flex flex-wrap items-center justify-center min-h-screen gap-x-16">
+        <div className="w-full bg-green-50 py-24 px-8 flex flex-wrap items-center justify-center min-h-screen gap-x-16 gap-10">
             
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
