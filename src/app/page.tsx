@@ -8,14 +8,26 @@ import Link from "next/link";
 
 import AboutUs from "@/components/sections/aboutUs";
 import Footer from "@/components/sections/footer";
+import { useState } from "react";
+import {motion} from 'framer-motion'
 
 export default function Home() {
 
   const titleParts = [
-    { text: "Green Flights", className: "text-green-500" },
-    { text: " Voando para um futuro mais ", className: "" }, // Classe vazia para o estilo padrão
+    { text: "Green Flights ", className: "text-green-500" },
+    { text: "Voandopara um futuro mais ", className: "" }, // Classe vazia para o estilo padrão
     { text: "verde!", className: "text-green-500" },
   ];
+
+  const navLinks = [
+    { href: "#precos", text: "Preços" },
+    { href: "#sobre", text: "Sobre" },
+    { href: "#blog", text: "Blog" },
+    { href: "/", text: "Começar"},
+  ];
+
+  // Estado para controlar qual link está ativo (hover)
+  const [hoveredLink, setHoveredLink] = useState<string | null>(null);
 
   return (
     <main>
@@ -24,11 +36,33 @@ export default function Home() {
           <Link href={"/"}>
             <Image className="h-14 w-14" src={logoSvg} alt="Logo marca da Green Flights" />
           </Link>
-          <div className="flex gap-6 items-center">
-            <Link href={"#precos"} className="font-medium text-stone-700 hover:text-green-500 transition-colors">Preços</Link>
-            <Link href={"#sobre"} className="font-medium text-stone-700 hover:text-green-500 transition-colors">Sobre</Link>
-            <Link href={"#blog"} className="font-medium text-stone-700 hover:text-green-500 transition-colors">Blog</Link>
-            <Link href={"#comecar"} className="border-collapse px-5 py-3 bg-green-500 font-medium text-white hover:bg-green-700 transition-colors rounded-full">Começar</Link>
+          <div
+            onMouseLeave={() => setHoveredLink(null)}
+            className="flex gap-2 items-center bg-stone-200 p-2 rounded-full"
+          >
+            {navLinks.map((link) => (
+              <motion.div
+                key={link.text}
+                className="relative"
+                onMouseEnter={() => setHoveredLink(link.text)} 
+              >
+                <Link
+                  href={link.href}
+                  className="relative z-10 block px-5 py-2 font-medium text-stone-700 transition-colors duration-300 hover:text-white"
+                >
+                  {link.text}
+                </Link>
+
+                {hoveredLink === link.text && (
+                  <motion.div
+                    layoutId="pill" 
+                    className="absolute inset-0 bg-green-500 rounded-full"
+                    style={{ zIndex: 0 }}
+                    transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                  />
+                )}
+              </motion.div>
+            ))}
           </div>
         </div>
       </nav>
