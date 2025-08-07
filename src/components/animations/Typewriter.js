@@ -32,10 +32,8 @@ const childVariants = {
   },
 };
 
-// Modifique o componente para aceitar 'parts' em vez de 'text'
 export default function Typewriter({ parts, className }) {
-  // 1. Crie um único array com todos os caracteres
-  // Cada caractere será um objeto com a letra e seu estilo
+
   const characters = parts.flatMap(part =>
     Array.from(part.text).map(char => ({
       char: char,
