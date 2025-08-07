@@ -1,60 +1,52 @@
-# Landing Page - Green Flights ✈️
+Landing Page - Green Flights ✈️
+Draft of the landing page for "Green Flights", a fictional airline. The project was created to demonstrate advanced front-end development skills with Next.js, Tailwind CSS, and Framer Motion.
 
-![Preview da landing page da Green Flights](./public/Preview.png)
+🔗 Access the demo here!
 
-> Esboço da landing page para a "Green Flights", uma companhia aérea fictícia. O projeto foi criado para demonstrar habilidades avançadas em desenvolvimento front-end com Next.js, Tailwind CSS e Framer Motion.
+📖 About the Project
+The Green Flights project is a landing page concept for a modern, fictional airline. The idea was to create a clean, attractive, and high-performance interface, focusing on a fluid and pleasant user experience.
 
-🔗 **[Acesse a demonstração aqui!](https://green-flights-beige.vercel.app/)**
+The main objective was to apply and deepen my knowledge in the following areas:
 
----
+Development with Next.js: Using its structure for optimized rendering and SEO.
 
-## 📖 Sobre o Projeto
+Styling with Tailwind CSS: Creating a customized and responsive design system in an agile way.
 
-O projeto **Green Flights** é um conceito de landing page para uma companhia aérea moderna e fictícia. A ideia foi criar uma interface limpa, atrativa e altamente performática, focando em uma experiência de usuário fluida e agradável.
+Animations with Framer Motion: Adding micro-interactions and animations that bring the page to life and improve navigation.
 
-O principal objetivo foi aplicar e aprofundar meus conhecimentos nas seguintes áreas:
-* **Desenvolvimento com Next.js:** Utilizando sua estrutura para renderização otimizada e SEO.
-* **Estilização com Tailwind CSS:** Criando um design system customizado e responsivo de forma ágil.
-* **Animações com Framer Motion:** Adicionando micro-interações e animações que dão vida à página e melhoram a navegação.
+🛠️ Technologies Used
+This project was built with the latest in the JavaScript/React ecosystem:
 
----
+Framework: Next.js
 
-## 🛠️ Tecnologias Utilizadas
+Language: TypeScript
 
-Este projeto foi construído com o que há de mais moderno no ecossistema JavaScript/React:
+Styling: Tailwind CSS
 
-* **Framework:** **[Next.js](https://nextjs.org/)**
-* **Linguagem:** **[TypeScript](https://www.typescriptlang.org/)**
-* **Estilização:** **[Tailwind CSS](https://tailwindcss.com/)**
-* **Animações:** **[Framer Motion](https://www.framer.com/motion/)**
-* **Deploy:** **[Vercel](https://vercel.com/)**
+Animations: Framer Motion
 
----
+Deploy: Vercel
 
-## ⚙️ Como Executar o Projeto Localmente
+⚙️ How to Run the Project Locally
+To run a copy of this project on your machine, follow the steps below.
 
-Para rodar uma cópia deste projeto em sua máquina, siga os passos abaixo.
-
-```bash
-# 1. Clone este repositório
+# 1. Clone this repository
 $ git clone [https://github.com/Gemellix2322/Green-Flights-Landing-Page.git]
 
-# 2. Navegue até o diretório principal do projeto
+# 2. Navigate to the main project directory
 $ cd Green-Flights-Landing-Page
 
-# 3. Instale todas as dependências necessárias
+# 3. Install all necessary dependencies
 $ npm install
-# ou
+# or
 $ yarn install
 
-# 4. Inicie o servidor de desenvolvimento
+# 4. Start the development server
 $ npm run dev
-# ou
+# or
 $ yarn dev
-```
 
-Após executar os comandos, abra http://localhost:3000 no seu navegador para ver o projeto em ação.
+After running the commands, open http://localhost:3000 in your browser to see the project in action.
 
-📝 Licença
-Este projeto está sob a licença MIT. Foi criado para fins de portfólio, então sinta-se à vontade para navegar pelo código, mas por favor, dê os créditos se for usá-lo como inspiração.
-
+📝 License
+This project is under the MIT license. It was created for portfolio purposes, so feel free to browse the code, but please give credit if you use it as inspiration.
