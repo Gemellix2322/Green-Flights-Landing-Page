@@ -1,11 +1,10 @@
 # Landing Page - Green Flights ✈️
 
 ![Preview da landing page da Green Flights](./public/Preview.png)
-_Substitua pela captura de tela do seu projeto!_
 
 > Esboço da landing page para a "Green Flights", uma companhia aérea fictícia. O projeto foi criado para demonstrar habilidades avançadas em desenvolvimento front-end com Next.js, Tailwind CSS e Framer Motion.
 
-🔗 **[Acesse a demonstração ao vivo aqui!](https://green-flights-beige.vercel.app/)**
+🔗 **[Acesse a demonstração aqui!](https://green-flights-beige.vercel.app/)**
 
 ---
 
@@ -50,7 +49,7 @@ Para rodar uma cópia deste projeto em sua máquina, siga os passos abaixo.
 $ git clone [https://github.com/Gemellix2322/next-landing-page.git]
 
 # 2. Navegue até o diretório principal do projeto
-$ cd green-flights-repo
+$ cd next-landing-page
 
 # 3. Instale todas as dependências necessárias
 $ npm install
