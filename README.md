@@ -19,15 +19,6 @@ O principal objetivo foi aplicar e aprofundar meus conhecimentos nas seguintes �
 
 ---
 
-## ✨ Funcionalidades Implementadas
-
-* **Design Totalmente Responsivo:** Interface perfeitamente adaptada para desktops, tablets e smartphones.
-* **Animações Fluidas:** Efeitos de scroll, transições de página e micro-interações nos botões e cards, implementados com **Framer Motion**.
-* **Componentes Interativos:** Seção de busca de voos (UI), cards de destinos e formulário de newsletter.
-* **Otimização de Performance:** Carregamento rápido de imagens e assets graças ao `next/image` e à estrutura do Next.js.
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 Este projeto foi construído com o que há de mais moderno no ecossistema JavaScript/React:
