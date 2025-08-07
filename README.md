@@ -46,10 +46,10 @@ Para rodar uma cópia deste projeto em sua máquina, siga os passos abaixo.
 
 ```bash
 # 1. Clone este repositório
-$ git clone [https://github.com/Gemellix2322/next-landing-page.git]
+$ git clone [https://github.com/Gemellix2322/Green-Flights-Landing-Page.git]
 
 # 2. Navegue até o diretório principal do projeto
-$ cd next-landing-page
+$ cd Green-Flights-Landing-Page
 
 # 3. Instale todas as dependências necessárias
 $ npm install
