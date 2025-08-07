@@ -1,11 +1,19 @@
+'use client'
 import Image from "next/image";
-
+import Typewriter from '../components/animations/Typewriter'
 import airplaneSvg from '../assets/airplane.svg'
 import logoSvg from '../assets/logo.svg'
 import Link from "next/link";
 
 
 export default function Home() {
+
+  const titleParts = [
+    { text: "Green Flights", className: "text-green-500" },
+    { text: " Voando para um futuro mais ", className: "" }, // Classe vazia para o estilo padrão
+    { text: "verde!", className: "text-green-500" },
+  ];
+
   return (
     <main>
       <nav className="sticky top-0 z-50 w-full flex items-center justify-between p-4 bg-white shadow-md">
@@ -21,16 +29,16 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <section id="green"  className="p-8 mx-auto flex w-full h-screen max-w-screen-2xl flex-col">
+      <section id="green" className="p-8 mx-auto flex w-full h-screen max-w-screen-2xl flex-col">
         <div className="flex max-w-screen-xl items-center justify-between mt-8 mx-auto">
           <div>
-            <h1
-              className="font-black text-7xl">
-              <span className="text-green-500">Green Flights</span> Voando para um futuro mais <span className="text-green-500">verde!</span>
-            </h1>
+            <Typewriter
+                className="font-black text-7xl"
+                parts={titleParts}
+              />
             <p className="mt-8 text-lg font-bold text-stone700">
               Nunca foi tão fácil economizar numa viagem.
-              <br/> Faça tudo de forma fácil e rápida!
+              <br /> Faça tudo de forma fácil e rápida!
             </p>
           </div>
           <div>
