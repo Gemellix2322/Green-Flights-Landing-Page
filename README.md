@@ -37,7 +37,7 @@ To run a copy of this project on your machine, follow the steps below.
 
 ```bash
 # 1. Clone this repository
-$ git clone [[https://github.com/Gemellix2322/Green-Flights-Landing-Page.git](https://github.com/Gemellix2322/Green-Flights-Landing-Page.git)]
+$ git clone https://github.com/Gemellix2322/Green-Flights-Landing-Page.git
 
 # 2. Navigate to the main project directory
 $ cd Green-Flights-Landing-Page
