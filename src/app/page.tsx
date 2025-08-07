@@ -32,8 +32,8 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <section id="green" className="p-8 mx-auto flex w-full h-screen max-w-screen-2xl flex-col">
-        <div className="flex max-w-screen-xl items-center justify-between mt-8 mx-auto">
+      <section id="green" className="p-8 mx-auto flex w-full h-screen max-w-screen-2xl flex-col mt-24" style={{ height: 'calc(80vh)' }}>
+        <div className="flex max-w-screen-xl items-center justify-between mx-auto">
           <div>
             <Typewriter
                 className="font-black text-7xl"
