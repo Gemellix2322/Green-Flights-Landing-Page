@@ -31,9 +31,9 @@ export default function Home() {
   const [hoveredLink, setHoveredLink] = useState<string | null>(null);
 
   return (
-    <main>
+    <main className="bg-gray-50">
       <nav className="sticky top-0 z-50 w-full flex items-center justify-between p-4 bg-white shadow-md">
-        <div className="mx-auto flex w-full max-w-screen-2xl items-center justify-between">
+        <div className="mx-auto flex w-full max-w-screen-2xl items-center justify-between ">
           <Link href={"/"}>
             <Image className="h-14 w-14" src={logoSvg} alt="Logo marca da Green Flights" />
           </Link>
@@ -67,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <section id="green" className="p-8 mx-auto flex w-full h-screen max-w-screen-2xl flex-col mt-24" style={{ height: 'calc(80vh)' }}>
+      <section id="green" className="p-8 mx-auto flex w-full h-screen max-w-screen-2xl flex-col mt-24 " style={{ height: 'calc(80vh)' }}>
         <div className="flex max-w-screen-xl items-center justify-between mx-auto">
           <div>
             <Typewriter
@@ -91,7 +91,7 @@ export default function Home() {
       <section id="sobre">
         <AboutUs/>
       </section>
-      <section id='preços'>
+      <section id='precos'>
           <Prices/>
       </section>
       <section id='footer'>
